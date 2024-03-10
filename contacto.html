@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <link rel="stylesheet" href="estilos/boton-scroll-top.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/ico" href="imagenes/logo.ico"/>
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <video muted="" playsinline="" autoplay="" style="object-fit: cover; background-size: cover; width: 217.852%; height: 100%; position: absolute; left: -58.9259%; top: 0px; visibility: inherit; opacity: 1; display: block;" class="resizelistener" loop="" preload="auto">
+            <source src="videos/Barber-Haircut-Shop.mp4" type="video/mp4">
+        </video>
+
+        <div class="caja-header">
+           
+            <!-- El elemento <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, 
+            ya sea dentro del documento actual o a otros documentos. -->
+            <!-- <div class="caja-nav"> -->
+                <nav>
+                    <ul>
+                        <!-- La etiqueta <li> representa un elemento de lista en una lista ordenada <ol> o una lista no ordenada <ul> -->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            <!-- </div> -->
+            
+            <h1 class="logo-h1"><img src="imagenes/logo-blanco.png" alt="Logo de la barbería Alura" style="margin-top: 0;"></h1>
+            <!-- <h3 class="logo-h1" style="font-size: 40px; color:white;">BARBERSHOP</h3> -->
+            <h3 class="logo-h1">BARBERSHOP</h3>
+
+        </div>
+        
+    </header>
+    <!-- <header>
+        <div class="caja-header">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+    
+            <h1 class="logo-h1"><img src="imagenes/logo-blanco.png" alt="Logo de la barbería Alura" style="margin-top: 40px;"></h1>
+            <h3 class="logo-h1" style="font-size: 40px; color:white;">BARBERSHOP</h3>
+
+        </div>
+        <br>
+        
+    </header> -->
+    
+    <main>
+        <div class="caja-contacto">
+            <p class="espaciado">Contamos con un equipo destinado a darte sorporte de manera personalizada, poniendo a tu disposición todos nuestros canales para contactarnos permanente.</p>
+        </div>
+        <form>
+            <br>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required placeholder="Ejem: Juan Perez">
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Escribe aqui, tu consulta no molesta"></textarea>
+            
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                
+            </fieldset>
+           
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox" checked>Quiero recibir novedades de la Barbería</label>                
+            
+            <input type="submit" value="Enviar formulario" class="enviar">
+            <br>
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08hs ~ 20hs</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08hs ~ 20hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>10hs ~ 22hs</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+   
+    <footer>
+        <img src="imagenes/logo.png">
+        <h3 class="logo-h1" style="font-size: 40px; color:black; padding-bottom: 20px;">BARBERSHOP</h3>
+
+        
+        <div class="caja-copyright">
+        <p id="redes"></p>
+        
+        <a href="https://wa.me/573175685241" target="_blank"> 
+            <img src="logos-redes/logo-whassapp.png" title= "toca para contactarme por WhatsApp" width="40" height="40"/>    
+        </a>
+
+        <a href="mailto:contacto-one@aluracursos.com">
+            <img src="logos-redes/logo-correo.png" title= "toca para contactarme por email" width="40" height="40"/>   
+        </a>
+        <a href="https://www.youtube.com/watch?v=cfvFBAB9TIE" target="_blank">
+            <img src="logos-redes/logo-youtube.png" title= "toca para ver mi canal de YouTube" width="40" height="40"/>
+        </a> 
+        <a href="https://www.facebook.com/aluracursoslatam/" target="_blank">
+            <img src="logos-redes/logo-face.png" title= "toca para contactarme por facebook" width="40" height="40"/>
+        </a>   
+
+        <!-- <a href="https://twitter.com/Juampi_Salomon" target="_blank">
+            <img src="imagenes/logo-twitter.png" title= "toca para contactarme por twitter" width="30" height="30"/>
+        </a> -->
+        <a href="https://www.tiktok.com/@aluraonline" target="_blank">
+            <img src="logos-redes/logo-tiktok.png" title= "toca para ver mi canal de TikTok" width="40" height="40"/>
+        </a>
+        <!-- <a href="https://goo.gl/maps/dioiUpWpta3eVUwR9" target="_blank">
+            <img src="logos-redes/logo-googlemaps2.png" title= "toca para ver la ubicación de la sede" width="40" height="40"/>
+        </a> -->
+
+            <p class="copyright">&copy Copyright Barbería Alura 2024</p>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Toca para ir al principio de la página">
+        <img src="imagenes/flecha-corel.png" title= "Toca para ir al principio de la página" width="25" height="25"/>    
+    </button>
+    <script src="boton-scroll-top.js"></script>
+</body>
+</html>

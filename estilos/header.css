@@ -1,0 +1,119 @@
+header {
+    
+    background-color: #2f3dd2;
+    background-color: #AB7735; /*este color está de fondo en el header de contacto y servicio*/
+    background: none;
+    /* padding: 10px 0; */
+    position: relative;
+}
+.caja-header{
+    width: 940px;
+    /* width: 50%; */
+    position: relative;
+    margin: 0 auto; /* para centrar el div*/
+    background-color: #AB7735;
+    background-color: rgb(255, 235, 205);
+    /* background-color: #ab7835de; con transparencia */
+    background: none; 
+
+}
+
+.logo-h1{
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+/* .protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+  .caja-nav{
+    display: block;
+    text-align: center;
+    background: #d22f8e;
+    background: #ab783569; /*este color está de fondo en el header de contacto y servicio*/
+    color: red;
+  }
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+    top:15px;
+    right: 10px;
+    
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+    /* background-color: #2f3dd2; */
+}
+
+nav a{
+    text-transform: uppercase;
+    color:white;
+    /* font-weight: bold; */
+    font-size: 22px;
+    /* background-color: aquamarine; */
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    color:black;
+    color: #c78c19;
+    /* text-decoration: underline; */
+}
+
+/* ----------- responsive --------------- */
+
+@media screen and (max-width:970px){
+    
+    .logo-h1{
+        text-align: center;
+    
+    }
+
+    .logo-h1 img{    
+        width: 150px;
+    }
+    
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    .caja-header{
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .logo-h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .logo-h1 img{    
+        width: 100px;
+    }
+
+    
+    nav{
+        position: static;
+        text-align: center;
+    }
+    .caja-header {
+        width: auto;
+    }
+   
+}

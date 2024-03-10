@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/index-home.css">
+    <link rel="stylesheet" href="estilos/boton-scroll-top.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/ico" href="imagenes/logo.ico" />
+    <!-- <link rel="shortcut icon" href="/assets/images/aluraespanhol/favicon.ico"> -->
+    <title>Barbería Alura 2024</title>
+</head>
+<body>
+    <header>
+        <video muted="" playsinline="" autoplay="" style="object-fit: cover; background-size: cover; width: 217.852%; height: 100%; position: absolute; left: -58.9259%; top: 0px; visibility: inherit; opacity: 1; display: block;" class="resizelistener" loop="" preload="auto">
+            <source src="videos/Barber-Haircut-Shop.mp4" type="video/mp4">
+        </video>
+
+        <div class="caja-header">
+           
+            <!-- El elemento <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, 
+            ya sea dentro del documento actual o a otros documentos. -->
+            <!-- <div class="caja-nav"> -->
+                <nav>
+                    <ul>
+                        <!-- La etiqueta <li> representa un elemento de lista en una lista ordenada <ol> o una lista no ordenada <ul> -->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            <!-- </div> -->
+            
+            <h1 class="logo-h1"><img src="imagenes/logo-blanco.png" alt="Logo de la barbería Alura" style="margin-top: 0;"></h1>
+            <!-- <h3 class="logo-h1" style="font-size: 40px; color:white;">BARBERSHOP</h3> -->
+            <h3 class="logo-h1">BARBERSHOP</h3>
+
+        </div>
+        
+    </header> 
+    <main>
+        <!-- <img class="banner" src="imagenes/banner.jpg"/> -->
+        <!-- carrusel de imagenes -->
+        <div class="carousel-wrapper">
+            <span id="item-1"></span>
+            <span id="item-2"></span>
+            <span id="item-3"></span>
+            <div class="carousel-item item-1">
+              <a href="#item-3" class="arrow-prev arrow"></a>
+              <a href="#item-2" class="arrow-next arrow"></a>
+            </div>
+        
+            <div class="carousel-item item-2">
+              <a href="#item-1" class="arrow-prev arrow"></a>
+              <a href="#item-3" class="arrow-next arrow"></a>
+            </div>
+        
+            <div class="carousel-item item-3">
+              <a href="#item-2" class="arrow-prev arrow"></a>
+              <a href="#item-1" class="arrow-next arrow"></a>
+            </div>
+        
+          </div>
+          <!-- fin del carrusel --> 
+       
+        <section class="seccion-principal espaciado">
+
+            <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+            <img class="utensilios"  src="imagenes/utensilios.jpg" alt="Utensilios de un barbero.">
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+            <p>Ofrecemos <span>profesionales experimentados</span> que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+            <br>
+            <button class="btn-consultar"><a href="contacto.html">SOLICITAR TURNO</a></button>
+        </section>
+       
+        <section class="mapa">
+
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p style="color: white;">Nuestro establecimiento está ubicado en el corazón de la ciudad.</p>
+            <!-- iframe etiqueta tipo ventana, para mapas, videos o imagenes -->
+            <div class="mapa-contenido">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34784.869470159!2d-46.65499870427411!3d-23.593248407555798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sbr!4v1602972945026!5m2!1ses-419!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+        </section>
+        <section class="diferenciales">
+    
+            <h3 class="titulo-principal">Diferenciales</h3>
+            <div class="contenido-diferenciales">
+                <ul class="lista-diferenciales">
+                    <li class="items">Atención personalizada</li>
+                    <li class="items">Espacio diferenciado</li>
+                    <li class="items">Localización</li>
+                    <li class="items">Profesionales calificados</li>
+                    <li class="items">Puntualidad</li>
+                    <li class="items">Limpieza</li>
+                </ul><img src="imagenes/diferenciales.jpg" class="imagen-diferenciales">
+            </div>
+            <br>
+            <br>
+            <br>
+            <h3 class="titulo-principal">Nuestros profesionales en acción:</h3>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </section>
+    </main>
+    <button class="btn-consultar"><a href="contacto.html">SOLICITAR TURNO</a></button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <img src="imagenes/logo.png">
+        <h3 class="logo-h1" style="font-size: 40px; color:black; padding-bottom: 20px;">BARBERSHOP</h3>
+
+        
+        <div class="caja-copyright">
+        <p id="redes"></p>
+        
+        <a href="https://wa.me/573175685241" target="_blank"> 
+            <img src="logos-redes/logo-whassapp.png" title= "toca para contactarme por WhatsApp" width="40" height="40"/>    
+        </a>
+
+        <a href="mailto:contacto-one@aluracursos.com">
+            <img src="logos-redes/logo-correo.png" title= "toca para contactarme por email" width="40" height="40"/>   
+        </a>
+        <a href="https://www.youtube.com/watch?v=cfvFBAB9TIE" target="_blank">
+            <img src="logos-redes/logo-youtube.png" title= "toca para ver mi canal de YouTube" width="40" height="40"/>
+        </a> 
+        <a href="https://www.facebook.com/aluracursoslatam/" target="_blank">
+            <img src="logos-redes/logo-face.png" title= "toca para contactarme por facebook" width="40" height="40"/>
+        </a>   
+
+        <!-- <a href="https://twitter.com/Juampi_Salomon" target="_blank">
+            <img src="imagenes/logo-twitter.png" title= "toca para contactarme por twitter" width="30" height="30"/>
+        </a> -->
+        <a href="https://www.tiktok.com/@aluraonline" target="_blank">
+            <img src="logos-redes/logo-tiktok.png" title= "toca para ver mi canal de TikTok" width="40" height="40"/>
+        </a>
+        <!-- <a href="https://goo.gl/maps/dioiUpWpta3eVUwR9" target="_blank">
+            <img src="logos-redes/logo-googlemaps2.png" title= "toca para ver la ubicación de la sede" width="40" height="40"/>
+        </a> -->
+
+            <p class="copyright">&copy Copyright Barbería Alura 2024</p>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Toca para ir al principio de la página">
+        <img src="imagenes/flecha-corel.png" title= "Toca para ir al principio de la página" width="25" height="25"/>    
+    </button>
+    <script src="boton-scroll-top.js"></script>
+</body>
+</html>
+
+<!-- <a href="https://cuatrolados.com" target="_blank" title="Cuatro Lados - Diseño, Marketing y Programación">
+    <img style="margin:5px 5px 5px 5px; text-align: center;" src="https://cdn.cuatrolados.com/assets/img/logo/logo-4l-blanco.png" alt="Cuatro Lados - Diseño, Marketing y Programación" title="Cuatro Lados - Diseño, Marketing y Programación" border="0">
+</a> -->
+
+<!-- <video muted="" playsinline="" autoplay="" style="object-fit: cover; background-size: cover; width: 217.852%; height: 100%; position: absolute; left: -58.9259%; top: 0px; visibility: inherit; opacity: 1; display: block;" class="resizelistener" loop="" preload="auto">
+    <source src="assets/video/videoplayback.mp4" type="video/mp4">
+</video> -->
